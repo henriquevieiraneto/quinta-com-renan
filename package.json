@@ -1,16 +1,14 @@
 {
-  "name": "aula25",
+  "name": "biblioteca-api",
   "version": "1.0.0",
-  "main": "index.js",
-  "scripts":{
-    "start": "node index.js"
-},
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "description": "",
+  "description": "API REST para gerenciamento de livros com Node.js e MySQL",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
   "dependencies": {
-    "express": "^5.1.0",
-  "mysql2": "^3.15.1"
+    "express": "^4.18.2",
+    "mysql2": "^3.6.5",
+    "cors": "^2.8.5"
   }
 }
